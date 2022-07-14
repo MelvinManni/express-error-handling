@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: true, limit: "15kb" }));
 const token = process.env.BUTTER_CMS_API_TOKEN;
 const butter = token ? Butter(token) : null;
 
-console.log(token);
 
 app.get(
   "/",
