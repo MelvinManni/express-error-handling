@@ -1,7 +1,7 @@
 const Butter = require("buttercms");
 const express = require("express");
 const errorMiddleware = require("./middleware/errorMiddleware");
-const AppError = require("./utils/AppError");
+const AppError = require("./utils/appError");
 const catchAsync = require("./utils/catchAsync");
 const makeAxiosRequest = require("./utils/makeAxiosRequest");
 
